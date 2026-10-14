@@ -1,0 +1,34 @@
+
+
+ Inpatient Details
+
+The output shows the details of an inpatient named **miski Abdimalik**. Her consultation fee is **$200.0**, and her total bill is **$500.0**.
+
+ **Calculation:**
+
+$$\text{Total Bill} = \text{Consultation Fee} + \text{Inpatient/Room Charges}$$
+
+
+$$\$500.0 = \$200.0 + \$300.0$$
+
+
+ **Inheritance Explanation:**
+The result demonstrates inheritance because the `Inpatient` class gets the patient's name and consultation fee from the `Patient` superclass. The `CalculateBill()` method then calculates the total hospital bill by adding the inpatient charges to the base consultation fee.
+
+
+Here is the structured explanation in English, following the exact same format:
+
+ Outpatient Details
+
+The output shows the details of an outpatient named **Manal**. Her consultation fee is **$150.0**, and her total bill is **$225.5**.
+
+ **Calculation:**
+
+$$\text{Total Bill} = \text{Consultation Fee} + \text{Laboratory / Outpatient Charges}$$
+
+
+$$\$225.5 = \$150.0 + \$75.5$$
+
+
+ **Inheritance Explanation:**
+The result demonstrates inheritance because the `Outpatient` class gets the patient's name and consultation fee from the `Patient` superclass. The `CalculateBill()` method then calculates the total bill by adding the additional laboratory or outpatient charges ($75.5) to the base consultation fee.
